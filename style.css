@@ -64,6 +64,26 @@ img {
 #accomplishmentssection {
     padding: 90px;
   }
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(220, 226, 252);
+}  
+.topnav a {
+    float: left;
+    outline: width 0;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+main {
+    margin-top: 20px;
+}
+header {
+    margin-top: 50px
+}
   .topnav .icon {
     display: none;
   }
