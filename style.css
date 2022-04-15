@@ -1,16 +1,35 @@
+h1 {
+  text-align: center;
+}
+h1 {
+  color: rgb(4, 4, 248);
+  background-color: white;
+}
 h2 {
-    color: blue;
+    color: rgb(4, 4, 248);
     font-family: Arial;
     }
 p {
-        color: rgb(23, 45, 23);
+        color:black;
       }
 .heading {
-    color: teal;
+    color: rgb(4, 4, 248);
 }
 #About {
-    font-family: cursive; 
-    text-transform: capitalize;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+#Skills {
+      font-family: Arial;
+      text-transform: uppercase;
+}
+#Accomplishments{
+  font-family: Arial;
+  text-transform: uppercase;
+}
+#Contact{
+  font-family: Arial;
+  text-transform: uppercase;
 }
 .uppercase {
         text-transform: uppercase;
@@ -20,29 +39,23 @@ p {
     font-family: bold
 }
 .list li {
-    color: green;
+    color: black;
+    font-size: 14px;
 }
 h3, h4 {
-    color:blueviolet; 
+    color:rgb(4,4,248); 
 }
 body {
     font-family: Arial;
 }
 p {
-    font-size: 12px;
-}
-h1 {
-    text-align: center;
-}
-h1 {
-    color: blue;
-    background-color: red;
+    font-size: 14px;
 }
 #contactsection {
-    background-color: #f8fdb6f3;
+    background-color: rgb(192, 231, 250);
 }
 .overlay {
-    opacity: 0.94;
+    opacity: 1.00
   }
 table, th, td {
     border:2px solid black;
@@ -56,19 +69,19 @@ img {
     margin-right: auto;
   }
 #aboutsection {
-    padding: 90px;
+    padding: 20px;
   }
 #contactsection {
-    padding: 90px;
+    padding: 20px;
   }
 #accomplishmentssection {
-    padding: 90px;
+    padding: 0px;
   }
-.topnav {
+  .topnav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgb(220, 226, 252);
+    background-color: rgb(192, 231, 250);
 }  
 .topnav a {
     float: left;
@@ -79,40 +92,35 @@ img {
     text-decoration: none
 }
 main {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 header {
     margin-top: 50px
 }
-  .topnav .icon {
+.topnav .icon {
     display: none;
   }
-   
-  /* When the screen is less than 600 pixels wide, hide all links. Show the iconthat should open and close the nav (.icon) */
   @media only screen and (max-width: 600px) {
     .topnav a {display: none;}
     .topnav a.icon {
-      float: right;
+      float: left;
       display: block;
     }
   }
-    
-   
-  /* The "responsive" class is added to the topnav with JavaScript when the use clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media only screen and (max-width: 600px) {
-    .topnav.responsive {
-      position: fixed;
-  }
-   
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-   
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
+    @media only screen and (max-width: 600px) {
+        .topnav.responsive {
+          position: fixed;
+      }
+       
+        .topnav.responsive a.icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+       
+        .topnav.responsive a.icon {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
